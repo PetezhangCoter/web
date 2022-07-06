@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .farter{
+            position: relative;
+            margin: 40px auto;
+            width: 400px;
+            height: 300px;
+            border: 1px solid #000;            
+        }
+        .son{
+            position: absolute;
+            width: 200px;
+            height: 100px;
+            left: 50%;
+            top: 50%;
+            /* 第一种方法 */
+            /* margin-top: -50px; */
+            /* margin-left: -100px; */
+
+            /* 第二种方法 */
+            transform: translate(-50%,-50%);
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="farter">
+        <div class="son">
+
+        </div>
+    </div>
+</body>
+</html>
